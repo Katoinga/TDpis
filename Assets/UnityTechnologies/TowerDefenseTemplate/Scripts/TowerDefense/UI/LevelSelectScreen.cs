@@ -68,6 +68,7 @@ namespace TowerDefense.UI
 				button.transform.SetParent(layout.transform);
 				button.transform.localScale = Vector3.one;
 				m_Buttons.Add(button.GetComponent<Button>());
+
 			}
 			if (rightBuffer != null)
 			{
