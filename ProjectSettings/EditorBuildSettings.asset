@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuInicio.unity
     guid: 5cea8b5753df4e740863796a401cbf24
+  - enabled: 1
+    path: Assets/Scenes/Historia.unity
+    guid: 21c9fa103a2bf80458490701e128a46b
   m_configObjects: {}

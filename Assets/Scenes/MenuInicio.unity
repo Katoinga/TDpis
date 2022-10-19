@@ -722,9 +722,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1468688799}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ShowLevelSelectMenu
+      - m_Target: {fileID: 825960688}
+        m_TargetAssemblyTypeName: ChangeHA, Assembly-CSharp
+        m_MethodName: cambio4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2325,6 +2325,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86d7078c8f1d34aaeaa4541b1dc2e90b, type: 3}
+--- !u!1 &825960687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1614135110365420, guid: 86d7078c8f1d34aaeaa4541b1dc2e90b,
+    type: 3}
+  m_PrefabInstance: {fileID: 825960686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &825960688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825960687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba794345c99623438a46b62444296a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  h1: {fileID: 0}
+  h2: {fileID: 0}
+  h3: {fileID: 0}
+  b1: {fileID: 0}
+  b2: {fileID: 0}
+  b3: {fileID: 0}
 --- !u!1 &842424927
 GameObject:
   m_ObjectHideFlags: 0
