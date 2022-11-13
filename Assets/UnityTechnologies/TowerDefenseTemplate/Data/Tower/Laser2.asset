@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2352be0954e359a850a9d99215c6e, type: 3}
   m_Name: Laser2
   m_EditorClassIdentifier: 
-  description: Tier 2 - Long range, high damage, slow fire rate
+  description: Tier 2 - Dispara chorros de agua lejanos
   upgradeDescription: + range and damage
   cost: 30
   sell: 22

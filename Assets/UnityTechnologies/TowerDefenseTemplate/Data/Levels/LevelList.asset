@@ -19,9 +19,9 @@ MonoBehaviour:
     sceneName: NIVEL1
   - id: 1
     name: Nivel 2
-    description: EN DESARROLLO
-    sceneName: NIVEL1
+    description: Protege a la fauna
+    sceneName: NIVEL2
   - id: 2
     name: Level 3
-    description: EN DESARROLLO
-    sceneName: NIVEL1
+    description: Protege a la fauna
+    sceneName: NIVEL3
