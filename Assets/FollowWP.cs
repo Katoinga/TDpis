@@ -7,6 +7,7 @@ public class FollowWP : MonoBehaviour
     public GameObject[] waypoints;
     int currentWP = 0;
     Animator anim;
+    Rigidbody rb;
 
     public float speed = 10.0f;
     public float rotSpeed = 10.0f;
@@ -16,12 +17,13 @@ public class FollowWP : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        anim.Play("Fly");
         if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) < Random.Range(0.1f, 10f))
             currentWP++;
 
@@ -36,6 +38,7 @@ public class FollowWP : MonoBehaviour
         
         speed = changeVelocity();
         this.transform.Translate(0, 0, speed * Time.deltaTime);
+        anim.Play("Walk");
     }
 
     float changeVelocity () {
