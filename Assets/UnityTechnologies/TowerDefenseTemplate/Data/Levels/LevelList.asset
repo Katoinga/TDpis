@@ -25,3 +25,7 @@ MonoBehaviour:
     name: Level 3
     description: Protege a la fauna
     sceneName: NIVEL3
+  - id: 3
+    name: BONUS
+    description: Salva a los pinguinos
+    sceneName: Trayectoria
