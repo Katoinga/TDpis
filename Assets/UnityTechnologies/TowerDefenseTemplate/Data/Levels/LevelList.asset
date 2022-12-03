@@ -19,11 +19,11 @@ MonoBehaviour:
     sceneName: NIVEL1
   - id: 1
     name: Nivel 2
-    description: Protege a la fauna
+    description: Protege a la fauna desierto
     sceneName: NIVEL2
   - id: 2
     name: Level 3
-    description: Protege a la fauna
+    description: Protege a la fauna nevada
     sceneName: NIVEL3
   - id: 3
     name: BONUS
