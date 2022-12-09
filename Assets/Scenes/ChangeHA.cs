@@ -62,4 +62,9 @@ public class ChangeHA : MonoBehaviour
         Debug.Log("hola");
 
     }
+
+    public void RAscene()
+    {
+        SceneManager.LoadScene("AR-EXTRA");
+    }
 }
